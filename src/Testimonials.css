@@ -7,8 +7,8 @@
 
 .grids {
   display: grid;
-  grid-template-columns: repeat(3, 300px);
-  grid-template-rows: repeat(2, 250px);
+  grid-template-columns: repeat(3, 450px);
+  grid-template-rows: repeat(2, 350px);
   gap: 20px;
   justify-content: center;
 }
@@ -31,7 +31,7 @@
 .des{
   color:  rgba(45, 45, 45, 1);
   font-weight: 600;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   line-height: 20px;
 }
 

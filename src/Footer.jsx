@@ -1,4 +1,9 @@
-import './Footer.css'
+import './Footer.css';
+import discord from './Images/discord.png';
+import facebook from './Images/facebook.png';
+import dribble from './Images/dribbble.png';
+import insta from './Images/nstagram.png';
+import behance from './Images/behance.png';
 
 const Footer = () => {
   const Work = 'Lets work together';
@@ -8,11 +13,11 @@ const Footer = () => {
         <p className='work-txt'>{ Work }</p>
         <p className='temp'>This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com This is a template Figma file, turned into  code using Anima. Learn more at AnimaApp.com</p>
       <div className="socials">
-        <img src="/public/discord.png"  />
-        <img src="/public/facebook.png"  />
-        <img src="/public/dribbble.png"  />
-        <img src="/public/nstagram.png"  />
-        <img src="/public/behance.png"  />
+        <img src= { discord }  />
+        <img src= { facebook }  />
+        <img src= { dribble }  />
+        <img src= { insta }  />
+        <img src= { behance }  />
       </div>
       <p>Copyright &#169;Made by DamiCodez 2024.</p>
       </div>

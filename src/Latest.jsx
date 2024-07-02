@@ -1,20 +1,23 @@
-import './Latest.css'
+import './Latest.css';
+import orange from './Images/Blood Orage image.png';
+import drink from './Images/Abstract drink image.png';
+import paper from './Images/Paper image.png';
 
 const Latest = () => {
   return (
     <div className='grid-container'>
       <div className="grid1">
-        <img src="/public/Blood Orage image.png"  />
+        <img src={ orange }  />
         <p className='pro-title'>Project Title</p>
         <p className="descrypt">UI, Art Direction</p>
       </div>
       <div className="grid2">
-        <img src="/public/Abstract drink image.png"  />
+        <img src={ drink }  />
         <p className="pro-title">Project Title</p>
         <p className="descrypt">UI, Art Direction</p>
       </div>
       <div className="grid3"> 
-        <img src="/public/Paper image.png"  />
+        <img src={ paper }  />
         <p className="pro-title">Project Title</p>
         <p className="descrypt">UI, Art Direction</p>
       </div>

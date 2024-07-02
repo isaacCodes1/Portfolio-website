@@ -1,4 +1,5 @@
 import './Landing.css';
+import headerImage from './Images/HeaderImage 1 (1).png'
 
 const Landing = () => {
 
@@ -19,7 +20,7 @@ const Landing = () => {
         <p className='description'>{ description }</p>
         <button className="contact-button">Contact</button>
       </div>
-      <img className='header-image' src="/public/HeaderImage 1 (1).png" />
+      <img className='header-image' src= { headerImage } />
     </div>
   )
 }

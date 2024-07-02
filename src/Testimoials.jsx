@@ -1,4 +1,6 @@
 import './Testimonials.css';
+import img1 from './Images/Client Image.png';
+import stars from './Images/Stars (3).png';
 
 const Testimoials = () => {
   return (
@@ -10,9 +12,9 @@ const Testimoials = () => {
           <p>This is a template Figma file, turned into code using Anima. learn more at AnimaApp.com</p>
         </div>
         <div className="user">
-          <img className='image' src="/src/assets/Client Image.png"  />
+          <img className='image' src={ img1 }  />
           <div className="stars">
-            <img src="/src/assets/Stars (3).png" alt="" />
+            <img src={ stars }  />
             <p className='User-name'>Gemma Nolen</p>
             <p className='google'>Google</p>
           </div>
@@ -23,9 +25,9 @@ const Testimoials = () => {
           <p>This is a template Figma file, turned into code using Anima. learn more at AnimaApp.com</p>
         </div>
         <div className="user">
-          <img className='image' src="/src/assets/Client Image.png"  />
+        <img className='image' src={ img1 }  />
           <div className="stars">
-            <img src="/src/assets/Stars (3).png" alt="" />
+          <img src={ stars }  />
             <p className='User-name'>Gemma Nolen</p>
             <p className='google'>Google</p>
           </div>
@@ -36,9 +38,9 @@ const Testimoials = () => {
           <p>This is a template Figma file, turned into code using Anima. learn more at AnimaApp.com</p>
         </div>
         <div className="user">
-          <img className='image' src="/src/assets/Client Image.png"  />
+        <img className='image' src={ img1 }  />
           <div className="stars">
-            <img src="/src/assets/Stars (3).png" alt="" />
+          <img src={ stars }  />
             <p className='User-name'>Gemma Nolen</p>
             <p className='google'>Google</p>
           </div>
@@ -49,9 +51,9 @@ const Testimoials = () => {
           <p>This is a template Figma file, turned into code using Anima. learn more at AnimaApp.com</p>
         </div>
         <div className="user">
-          <img className='image' src="/src/assets/Client Image.png"  />
+        <img className='image' src={ img1 }  />
           <div className="stars">
-            <img src="/src/assets/Stars (3).png" alt="" />
+          <img src={ stars }  />
             <p className='User-name'>Gemma Nolen</p>
             <p className='google'>Google</p>
           </div>
@@ -62,9 +64,9 @@ const Testimoials = () => {
           <p>This is a template Figma file, turned into code using Anima. learn more at AnimaApp.com</p>
         </div>
         <div className="user">
-          <img className='image' src="/src/assets/Client Image.png"  />
+        <img className='image' src={ img1 }  />
           <div className="stars">
-            <img src="/src/assets/Stars (3).png" alt="" />
+          <img src={ stars }  />
             <p className='User-name'>Gemma Nolen</p>
             <p className='google'>Google</p>
           </div>
@@ -75,9 +77,9 @@ const Testimoials = () => {
           <p>This is a template Figma file, turned into code using Anima. learn more at AnimaApp.com</p>
         </div>
         <div className="user">
-          <img className='image' src="/src/assets/Client Image.png"  />
+        <img className='image' src={ img1 }  />
           <div className="stars">
-            <img src="/src/assets/Stars (3).png" alt="" />
+          <img src={ stars }  />
             <p className='User-name'>Gemma Nolen</p>
             <p className='google'>Google</p>
           </div>
