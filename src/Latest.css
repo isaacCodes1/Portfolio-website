@@ -1,0 +1,53 @@
+.grid-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.grid-container img,
+.cards-two img {
+  margin-bottom: 20px;
+  transition: 1s ease-in-out;
+}
+
+.grid-container img:hover,
+.cards-two img:hover{
+  transform: scale(1.05);
+  transition: 1s ease-in-out;
+}
+
+.cards-two {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.pro-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.descrypt {
+  margin-bottom: 20px;
+}
+
+.latest-txt {
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Media Query */
+
+@media (max-width: 760px) {
+  .grid-container, .cards-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
