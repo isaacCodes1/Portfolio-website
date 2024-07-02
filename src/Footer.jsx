@@ -8,11 +8,11 @@ const Footer = () => {
         <p className='work-txt'>{ Work }</p>
         <p className='temp'>This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com This is a template Figma file, turned into  code using Anima. Learn more at AnimaApp.com</p>
       <div className="socials">
-        <img src="/src/assets/discord.png"  />
-        <img src="/src/assets/facebook.png"  />
-        <img src="/src/assets/dribbble.png"  />
-        <img src="/src/assets/nstagram.png"  />
-        <img src="/src/assets/behance.png"  />
+        <img src="/public/discord.png"  />
+        <img src="/public/facebook.png"  />
+        <img src="/public/dribbble.png"  />
+        <img src="/public/nstagram.png"  />
+        <img src="/public/behance.png"  />
       </div>
       <p>Copyright &#169;Made by DamiCodez 2024.</p>
       </div>

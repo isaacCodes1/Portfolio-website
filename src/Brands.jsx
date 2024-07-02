@@ -2,11 +2,11 @@ import './Brands.css'
 const Brands = () => {
   return (
     <div className='brands-image'>
-        <img src="/src/assets/google logo.png" />
-        <img src="/src/assets/Nike logo.png"  />
-        <img src="/src/assets/Samsung logo.png"  />
-        <img src="/src/assets/Apple logo.png"  />
-        <img src="/src/assets/Adidas logo.png"  />
+        <img src="/public/google logo.png" />
+        <img src="/public/Nike logo.png"  />
+        <img src="/public/Samsung logo.png"  />
+        <img src="/public/Apple logo.png"  />
+        <img src="/public/Adidas logo.png"  />
     </div>
   )
 }
