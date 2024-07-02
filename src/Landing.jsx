@@ -19,7 +19,7 @@ const Landing = () => {
         <p className='description'>{ description }</p>
         <button className="contact-button">Contact</button>
       </div>
-      <img className='header-image' src="/src/assets/HeaderImage 1.png" />
+      <img className='header-image' src="/src/assets/HeaderImage 1 (1).png" />
     </div>
   )
 }
